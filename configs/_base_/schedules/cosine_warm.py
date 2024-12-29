@@ -1,0 +1,1 @@
+lr_config = dict(policy='CosineRestart', restart_weights=[1,1,1,1,1], periods=[3750,7500,15000,30000,60000],min_lr=1e-6)
